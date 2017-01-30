@@ -1,0 +1,19 @@
+          <div class="navbar-collapse collapse" id="navbar">
+            <ul class="nav navbar-nav">
+              {% if page.url == "/" %}
+              <li>
+                <a href="#photo">Family Photo</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+              {% else %}
+              <li>
+                <a href="/#photo">Family Photo</a>
+              </li>
+              <li>
+                <a href="/#contact">Contact</a>
+              </li>
+              {% endif %}
+            </ul>
+          </div>
