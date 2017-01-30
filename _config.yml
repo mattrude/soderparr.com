@@ -20,6 +20,8 @@ highlighter: rouge
 date: YYYY-MM-DD HH:MM
 
 exclude:
+- Gemfile
+- Gemfile.lock
 - README.md
 - CONTRIBUTING.md
 - LICENSE
