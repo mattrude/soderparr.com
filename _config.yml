@@ -5,13 +5,12 @@ description: ""
 url: "https://soderparr.com"
 name: "soderparr.com"
 baseurl: ""
-#destination: "/var/www/soderparr.com"
 
 owner_name: "Matt Rude"
 owner_url: "https://mattrude.com"
 
 # Analytics settings
-#google_analytics_id: UA-9532791-9
+#google_analytics_id: 
 
 # Build settings
 markdown: kramdown
@@ -29,10 +28,10 @@ exclude:
 
 gems:
 - jekyll-sitemap
-#- jekyll-minifier
+- jekyll-press
 
 jekyll-press:
-  exclude: 'robots.txt, contact.txt, contact-ecc.txt' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
+  exclude: 'robots.txt' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
   js_options: {}      # js minifier options
   css_options: {}     # css minifier options
   html_options: {}    # html minifier options
